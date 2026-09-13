@@ -1,0 +1,12 @@
+{
+  "acceptable_or_preferred_rate": 0.968,
+  "backend": "mock-fixed-projection",
+  "connectome_used": false,
+  "examples": 1125,
+  "high_risk_examples": 225,
+  "high_risk_preferred_accuracy": 0.8666666666666667,
+  "mask_violation_rate": 0.0,
+  "mean_reward": 0.8973333333333333,
+  "preferred_accuracy": 0.9164444444444444,
+  "split": "test"
+}

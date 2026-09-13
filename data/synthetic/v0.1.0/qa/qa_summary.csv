@@ -1,0 +1,12 @@
+check,observed,expected,status
+scenario_count,25,25,PASS
+episode_count,2500,2500,PASS
+decision_count,7500,7500,PASS
+scenario_balance_failures,0,0,PASS
+pii_pattern_hits,0,0,PASS
+preferred_actions_outside_mask,0,0,PASS
+split_template_overlaps,0,0,PASS
+exact_utterance_cross_split_overlaps,0,0,PASS
+exact_duplicate_utterance_rate,0.044267,<=0.05,PASS
+script_text_rows,0,0,PASS
+all_release_checks,true,true,PASS

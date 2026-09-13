@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/callcenterfly/synthetic-credit-union-call.schema.json",
+  "title": "CallCenterFly Synthetic Credit-Union Call Episode",
+  "description": "Synthetic member-only call episode with abstract action targets; no agent scripts.",
+  "type": "object",
+  "required": [
+    "dataset_version",
+    "call_id",
+    "split",
+    "synthetic",
+    "scenario_id",
+    "turns"
+  ],
+  "properties": {
+    "dataset_version": {
+      "const": "0.1.0"
+    },
+    "call_id": {
+      "type": "string",
+      "pattern": "^SYN-CU-"
+    },
+    "split": {
+      "enum": [
+        "train",
+        "validation",
+        "test"
+      ]
+    },
+    "synthetic": {
+      "const": true
+    },
+    "language": {
+      "const": "en-US"
+    },
+    "scenario_id": {
+      "type": "string"
+    },
+    "scenario_family": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "product": {
+      "type": "string"
+    },
+    "difficulty": {
+      "enum": [
+        "standard",
+        "ambiguous",
+        "high_attention"
+      ]
+    },
+    "risk_tier": {
+      "enum": [
+        "routine",
+        "elevated",
+        "high"
+      ]
+    },
+    "member_goal": {
+      "type": "string"
+    },
+    "case_facts": {
+      "type": "object"
+    },
+    "regulatory_flags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_keys": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "turns": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "turn_index",
+          "role",
+          "phase",
+          "text",
+          "observation",
+          "target"
+        ],
+        "properties": {
+          "role": {
+            "const": "member"
+          },
+          "text": {
+            "type": "string"
+          },
+          "target": {
+            "type": "object"
+          }
+        }
+      }
+    }
+  }
+}

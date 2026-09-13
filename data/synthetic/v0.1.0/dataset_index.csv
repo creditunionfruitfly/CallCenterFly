@@ -1,0 +1,21 @@
+path,format,record_count,primary_use
+data/decision_points_train.csv,CSV,5250,Contextual-bandit or supervised training rows
+data/decision_points_validation.csv,CSV,1125,Model selection and threshold tuning
+data/decision_points_test.csv,CSV,1125,Held-out evaluation
+data/decision_sample.csv,CSV,75,Fast human review; one complete episode per scenario
+data/episodes_train.jsonl,JSONL,1750,Sequential three-decision training episodes
+data/episodes_validation.jsonl,JSONL,375,Sequential validation episodes
+data/episodes_test.jsonl,JSONL,375,Sequential held-out episodes
+data/scenario_catalog.csv,CSV,25,Scenario taxonomy and policy dependencies
+data/action_catalog.csv,CSV,26,Abstract selectable action definitions
+data/prohibited_behavior_catalog.csv,CSV,9,Safety and compliance exclusions
+data/source_registry.csv,CSV,8,Primary-source grounding registry
+docs/data_dictionary.csv,CSV,16,Field definitions
+docs/episode_schema.json,JSON,1,Episode schema contract
+qa/qa_report.json,JSON,1,Generation and leakage checks
+qa/qa_summary.csv,CSV,11,Human-readable release gate
+qa/scenario_distribution.csv,CSV,25,Per-scenario split balance
+qa/action_distribution.csv,CSV,26,Preferred-action label distribution
+source/generate_dataset.py,Python,,Deterministic regeneration
+source/validate_dataset.py,Python,,Independent validation
+source/package_release.py,Python,,Reproducible ZIP and SHA-256 manifest

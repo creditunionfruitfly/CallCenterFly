@@ -1,0 +1,9 @@
+source_key,title,url,use,accessed
+REG_E_ERROR,CFPB Regulation E § 1005.11 — Procedures for resolving errors,https://www.consumerfinance.gov/rules-policy/regulations/1005/11/,"EFT error intake, investigation, documentation, and timing review.",2026-09-12
+REG_E_LIABILITY,CFPB Regulation E § 1005.6 — Liability for unauthorized transfers,https://www.consumerfinance.gov/rules-policy/regulations/1005/6/,Unauthorized-EFT classification and escalation; never hard-code an outcome.,2026-09-12
+REG_Z_DISCLOSURES,CFPB Regulation Z § 1026.6 — Account-opening disclosures,https://www.consumerfinance.gov/rules-policy/regulations/1026/6/,"Card APR, finance-charge, transaction-fee, and other-term review.",2026-09-12
+REG_CC_GUIDE,Federal Reserve — Regulation CC Compliance Guide,https://www.federalreserve.gov/supervisionreg/regcccg.htm,Deposit availability and check-hold scenario framing.,2026-09-12
+ACH_BASICS,CFPB — What is an ACH transaction?,https://www.consumerfinance.gov/ask-cfpb/what-is-an-ach-transaction-en-1065/,"ACH clearing, direct deposit, debits, returns, and institution-specific limits.",2026-09-12
+ZELLE_ENROLLMENT,Zelle — Recipient has not enrolled,https://www.zelle.com/faq/what-if-person-i-am-sending-money-hasnt-enrolled-zelle,Distinguish recipient-enrollment pending status from fraud or a bank security review.,2026-09-12
+IDENTITY_THEFT,CFPB — How can I spot identity theft?,https://www.consumerfinance.gov/ask-cfpb/how-can-i-spot-identity-theft-en-1359/,"Suspicious withdrawals, unknown accounts, and account-takeover escalation.",2026-09-12
+NCUA_CAC,NCUA MyCreditUnion.gov — Consumer Assistance Center,https://mycreditunion.gov/about/consumer-assistance-center,Credit-union complaint escalation context; not an internal call script.,2026-09-12

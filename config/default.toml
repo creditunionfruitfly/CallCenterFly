@@ -1,0 +1,29 @@
+[project]
+dataset_dir = "data/synthetic/v0.1.0"
+response_catalog = "data/scripts/response_catalog.csv"
+
+[encoder]
+dimension = 128
+seed = 20260913
+text_weight = 0.16
+mapping_status = "engineered_unvalidated"
+
+[backend]
+type = "mock"
+input_dimension = 128
+readout_dimension = 64
+seed = 7
+settle_steps = 6
+connectome_used = false
+
+[training]
+objective = "full_information_contextual_bandit"
+epochs = 4
+learning_rate = 0.04
+l2 = 0.00001
+seed = 20260913
+
+[operations]
+raw_utterance_logging = false
+human_review_required = true
+production_ready = false

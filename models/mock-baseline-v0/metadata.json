@@ -1,0 +1,117 @@
+{
+  "artifact_schema_version": 1,
+  "backend": {
+    "connectome_used": false,
+    "input_dimension": 128,
+    "name": "mock-fixed-projection",
+    "readout_dimension": 64,
+    "scientific_interpretation": "software mock; not biological evidence",
+    "seed": 7,
+    "type": "mock"
+  },
+  "created_at": "2026-09-13T03:39:41.726696+00:00",
+  "dataset_path_at_training": "data/synthetic/v0.1.0",
+  "dataset_version": "0.1.0",
+  "encoder": {
+    "dimension": 128,
+    "mapping_status": "engineered and unvalidated",
+    "seed": 20260913,
+    "text_weight": 0.16
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "mean_expected_train_reward": 0.4197151256357098,
+      "validation": {
+        "acceptable_or_preferred_rate": 0.944,
+        "backend": "mock-fixed-projection",
+        "connectome_used": false,
+        "examples": 1125,
+        "high_risk_examples": 225,
+        "high_risk_preferred_accuracy": 0.5333333333333333,
+        "mask_violation_rate": 0.0,
+        "mean_reward": 0.6606666666666666,
+        "preferred_accuracy": 0.6408888888888888,
+        "split": "validation"
+      }
+    },
+    {
+      "epoch": 2,
+      "mean_expected_train_reward": 0.6079295737117174,
+      "validation": {
+        "acceptable_or_preferred_rate": 0.9591111111111111,
+        "backend": "mock-fixed-projection",
+        "connectome_used": false,
+        "examples": 1125,
+        "high_risk_examples": 225,
+        "high_risk_preferred_accuracy": 0.8666666666666667,
+        "mask_violation_rate": 0.0,
+        "mean_reward": 0.7662222222222222,
+        "preferred_accuracy": 0.7564444444444445,
+        "split": "validation"
+      }
+    },
+    {
+      "epoch": 3,
+      "mean_expected_train_reward": 0.6962126589509703,
+      "validation": {
+        "acceptable_or_preferred_rate": 0.9564444444444444,
+        "backend": "mock-fixed-projection",
+        "connectome_used": false,
+        "examples": 1125,
+        "high_risk_examples": 225,
+        "high_risk_preferred_accuracy": 0.8666666666666667,
+        "mask_violation_rate": 0.0,
+        "mean_reward": 0.8495555555555555,
+        "preferred_accuracy": 0.872,
+        "split": "validation"
+      }
+    },
+    {
+      "epoch": 4,
+      "mean_expected_train_reward": 0.7620319997599969,
+      "validation": {
+        "acceptable_or_preferred_rate": 0.9724444444444444,
+        "backend": "mock-fixed-projection",
+        "connectome_used": false,
+        "examples": 1125,
+        "high_risk_examples": 225,
+        "high_risk_preferred_accuracy": 0.8666666666666667,
+        "mask_violation_rate": 0.0,
+        "mean_reward": 0.9035555555555556,
+        "preferred_accuracy": 0.9173333333333333,
+        "split": "validation"
+      }
+    }
+  ],
+  "limitations": [
+    "No MaleCNS connectome was loaded.",
+    "Synthetic templated data only.",
+    "Response templates require institutional review.",
+    "Not approved for production member servicing."
+  ],
+  "model_name": "mock-baseline-v0",
+  "package_version": "0.1.0",
+  "test_metrics": {
+    "acceptable_or_preferred_rate": 0.968,
+    "backend": "mock-fixed-projection",
+    "connectome_used": false,
+    "examples": 1125,
+    "high_risk_examples": 225,
+    "high_risk_preferred_accuracy": 0.8666666666666667,
+    "mask_violation_rate": 0.0,
+    "mean_reward": 0.8973333333333333,
+    "preferred_accuracy": 0.9164444444444444,
+    "split": "test"
+  },
+  "training": {
+    "epochs": 4,
+    "l2": 1e-05,
+    "learning_rate": 0.04,
+    "objective": "full-information contextual bandit expected reward",
+    "seed": 20260913,
+    "settle_steps": 6,
+    "train_examples": 5250,
+    "validation_examples": 1125
+  }
+}

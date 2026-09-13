@@ -1,0 +1,9 @@
+scenario_id,scenario_title,role,voice_id,utterance,action_family,review_status
+CU003,Balance transfer terms,customer,rms,"I'm comparing a balance transfer offer with my regular A P R. Which fee and rate apply?",,SYNTHETIC_DEMO
+CU003,Balance transfer terms,fly,slt,"First, I verify identity. Then I review the card agreement and current offer. I will not assume the fee, rate, or eligible amount.",REVIEW_CARD_TERMS,DRAFT_REVIEW_REQUIRED
+CU004,Pending Zelle payment,customer,rms,"My Zelle payment says pending, and the recipient used a different email. What happened?",,SYNTHETIC_DEMO
+CU004,Pending Zelle payment,fly,slt,"I check the payment status and recipient enrollment. A pending payment is not automatically a fraud hold, and I will not promise the timing.",CHECK_RECIPIENT_ENROLLMENT,DRAFT_REVIEW_REQUIRED
+CU008,Unauthorized Zelle transfer,customer,rms,"There is a Zelle transfer on my account that I did not authorize.",,SYNTHETIC_DEMO
+CU008,Unauthorized Zelle transfer,fly,slt,"I secure the account, begin the approved electronic transfer error intake, and route the case to fraud operations. I will not promise a refund or outcome.",REFER_FRAUD_SPECIALIST,DRAFT_REVIEW_REQUIRED
+CU018,Check deposit hold,customer,rms,"Why are the funds from my deposited check still unavailable?",,SYNTHETIC_DEMO
+CU018,Check deposit hold,fly,slt,"I review the deposit type, hold notice, availability date, and any applicable exception. I will confirm the next step without promising an early release.",REVIEW_DEPOSIT_HOLD,DRAFT_REVIEW_REQUIRED

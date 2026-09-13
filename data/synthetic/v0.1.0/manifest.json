@@ -1,0 +1,10 @@
+{
+  "name": "CallCenterFly Synthetic Credit-Union Calls",
+  "version": "0.1.0",
+  "release_date": "2026-09-12",
+  "seed": 20260912,
+  "scenario_count": 25,
+  "episode_count": 2500,
+  "decision_count": 7500,
+  "scripts_included": false
+}

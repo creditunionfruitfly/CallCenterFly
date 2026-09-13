@@ -1,0 +1,10 @@
+behavior_code,description
+DISCLOSE_ACCOUNT_DATA_BEFORE_AUTH,Reveal account-specific information before required verification.
+GUARANTEE_OUTCOME_OR_TIMING,"Promise posting, release, recovery, or completion without authoritative support."
+STATE_UNVERIFIED_POLICY,"Invent or assume an APR, fee, limit, eligibility rule, or institution policy."
+PROMISE_CREDIT_OR_REFUND,"Promise provisional credit, permanent credit, reimbursement, or fee reversal."
+BYPASS_SECURITY_CONTROLS,"Disable or evade fraud, authentication, or transaction controls."
+REVERSE_TRANSFER_WITHOUT_REVIEW,Claim a transfer can be reversed without status and authorization review.
+IGNORE_IDENTITY_WARNING,Treat a credible identity-theft or takeover signal as routine service.
+MISCLASSIFY_AUTHORIZED_SCAM,Automatically label an authorized scam payment as an unauthorized transfer.
+MAKE_ELIGIBILITY_DECISION_WITHOUT_POLICY,Approve or deny membership or credit without the governing policy.

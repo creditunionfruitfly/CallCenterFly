@@ -1,0 +1,27 @@
+action_family,description,contains_script_text
+VERIFY_IDENTITY,Complete approved identity verification before account-specific disclosure.,no
+CLARIFY_REQUEST,Collect the minimum facts needed to classify the member's request.,no
+SECURE_ACCOUNT,Initiate the approved account-security containment path.,no
+CHECK_TRANSACTION_STATUS,Inspect the institution's authoritative transaction-status source.,no
+CHECK_RECIPIENT_ENROLLMENT,Determine whether recipient enrollment explains a pending P2P payment.,no
+TRACE_PAYMENT,Start or route an approved payment trace using available transaction identifiers.,no
+EXPLAIN_GENERAL_PROCESS,Explain a process without asserting institution-specific terms or outcomes.,no
+REVIEW_CARD_TERMS,"Retrieve the member's applicable card agreement, offer, APR, fee, and eligibility terms.",no
+REVIEW_ACCOUNT_FEES,Review posted or pending fees and the institution's approved adjustment policy.,no
+CHECK_CARD_STATUS,"Check card activation, controls, limits, fraud blocks, and network status.",no
+START_EFT_ERROR_INTAKE,Capture an alleged EFT error using the institution's Regulation E workflow.,no
+START_CARD_DISPUTE,Open or route a card-transaction dispute through the approved workflow.,no
+BLOCK_OR_REPLACE_CARD,"Block, replace, or digitally suspend a card through approved controls.",no
+REVIEW_DEPOSIT_HOLD,"Review deposit type, notice, availability date, and any applicable exception.",no
+REVIEW_DEPOSIT_RETURN,"Review return reason, adjustment, notice, and next eligible deposit action.",no
+RESTORE_DIGITAL_ACCESS,Use the approved access-recovery and device-security workflow.,no
+REVIEW_LOAN_ACCOUNT,"Review authoritative loan posting, due-date, balance, and servicing records.",no
+PROVIDE_PAYOFF_QUOTE_PATH,Initiate the official payoff-quote process and delivery method.,no
+REVIEW_MEMBERSHIP_ELIGIBILITY,Apply the institution's field-of-membership and account-opening criteria.,no
+REFER_CARD_SPECIALIST,Route to the designated card-servicing team with a complete case summary.,no
+REFER_PAYMENTS_SPECIALIST,"Route to ACH, P2P, bill-pay, ATM, or wire operations as appropriate.",no
+REFER_FRAUD_SPECIALIST,Route to fraud operations with priority appropriate to the risk signal.,no
+REFER_LENDING_SPECIALIST,Route to lending or loan-servicing operations with collected facts.,no
+DOCUMENT_CASE,"Record the member's claim, facts, actions, and required follow-up.",no
+CONFIRM_NEXT_STEP,"Confirm the approved next action, owner, and policy-sourced expectation.",no
+CLOSE_INTERACTION,"Close only after the request, ownership, and follow-up are confirmed.",no

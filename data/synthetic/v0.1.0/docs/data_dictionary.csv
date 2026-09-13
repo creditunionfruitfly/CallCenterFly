@@ -1,0 +1,17 @@
+field,definition
+call_id,Opaque synthetic episode identifier; never a member or account identifier.
+split,"Fixed train, validation, or test assignment."
+phase,"Decision phase: authenticate_and_scope, investigate_and_classify, or resolve_or_escalate."
+scenario_family,Stable real-world issue taxonomy used as intent.
+member_utterance,Generated English member utterance; never copied from a real call.
+valence,"Coarse affect label: positive, neutral, or negative."
+urgency,"Routine, time_sensitive, or immediate triage label."
+authentication_state,"Whether identity verification is not started, verified, or not required."
+authorization_claim,Member's claim about transaction authorization; not a final legal finding.
+regulatory_flags_json,Potential review flags. These do not determine legal coverage or outcome.
+action_mask_group,Contextual group of selectable abstract actions.
+preferred_action_family,Gold abstract action objective for the decision point.
+acceptable_action_families_json,Non-preferred but reasonable actions receiving partial reward.
+prohibited_behaviors_json,Unsafe or noncompliant behaviors excluded from selection.
+candidate_rewards_json,"Per-candidate rewards: preferred 1.0, acceptable 0.25, other allowed -1.0."
+script_text_status,Always NOT_INCLUDED in v0.1; wording is intentionally deferred.

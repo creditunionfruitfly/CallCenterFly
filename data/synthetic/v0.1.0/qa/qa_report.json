@@ -1,0 +1,35 @@
+{
+  "dataset_version": "0.1.0",
+  "seed": 20260912,
+  "scenario_count": 25,
+  "episode_count": 2500,
+  "decision_count": 7500,
+  "episodes_by_split": {
+    "train": 1750,
+    "validation": 375,
+    "test": 375
+  },
+  "decisions_by_split": {
+    "train": 5250,
+    "validation": 1125,
+    "test": 1125
+  },
+  "exact_scenario_balance": true,
+  "scenario_balance_failures": [],
+  "template_family_overlap": {
+    "train_validation": [],
+    "train_test": [],
+    "validation_test": []
+  },
+  "exact_utterance_overlap": {
+    "train_validation": 0,
+    "train_test": 0,
+    "validation_test": 0
+  },
+  "pii_pattern_hits": [],
+  "preferred_action_outside_mask": [],
+  "duplicate_utterance_count": 332,
+  "duplicate_utterance_rate": 0.044267,
+  "script_text_rows": 0,
+  "checks_passed": true
+}

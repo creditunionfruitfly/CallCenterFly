@@ -1,0 +1,11 @@
+{
+  "requested_backend": "egl",
+  "context_class": "GLContext",
+  "gl_vendor": "Mesa",
+  "gl_renderer": "llvmpipe (LLVM 20.1.2, 256 bits)",
+  "gl_version": "4.5 (Compatibility Profile) Mesa 25.2.8-0ubuntu0.24.04.2",
+  "glsl_version": "4.50",
+  "mujoco_version": "3.3.5",
+  "model": "assets/cubicle_scene.xml",
+  "connectome_loaded": false
+}
